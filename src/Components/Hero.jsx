@@ -19,7 +19,7 @@ export default function Hero() {
             <div>
                 <i className="fa-brands fa-github"></i>
                 <i className="fa-brands fa-linkedin-in"></i>
-                <i className="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i> 
             </div>     
         </div>
     )
