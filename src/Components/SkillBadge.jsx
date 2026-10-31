@@ -3,7 +3,7 @@ export default function SkillBadge({skill}) {
     return (
         <div>
             {programImg}
-            <h3>{tech}</h3>
+            <h3>{tech}</h3> 
         </div>
     )
 }
