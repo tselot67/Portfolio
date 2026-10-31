@@ -11,7 +11,7 @@ export default function About() {
                     solving problems, and exploring Artificial Intelligence and
                     Machine Learning. I'm continuously learning, developing my skills,
                     and turning creative ideas into meaningful projects.<br/><br/>
-                    My goal is to become a skilled Software and AI Engineer.
+                    My goal is to become a skilled Software and AI Engineer. 
                 </p>
             </div>
         </div>
