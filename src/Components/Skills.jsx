@@ -1,4 +1,5 @@
 import SkillBadge from "./SkillBadge";
+import {skill} from "../data";
 
 export default function Skills() {
     return (
@@ -8,7 +9,9 @@ export default function Skills() {
                 <p> Technologies and tools I work with: </p>
             </div>
             <div>
-                <SkillBadge/>
+                {skill.map((item) => 
+                    <SkillBadge key={item.id} skill={item}/> 
+                )}
             </div>
         </div>
     )
