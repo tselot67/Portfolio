@@ -9,7 +9,7 @@ export default function NavBar() {
                 <button> 
                     <i className="fa-regular fa-envelope"></i>
                     <p> Let's Talk </p> 
-                </button>
+                </button> 
             </div>
         </div>
     )
