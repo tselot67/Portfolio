@@ -41,20 +41,23 @@ export const project = [
         projectImg: camer,
         title: "Focus Frame Media",
         description: "A photography and videography portfolio website.",
-        link:'View Project'
+        link:'View Project',
+        linkUrl: 'https://focus-frame-media-sigma.vercel.app/'
     },
     {
         id: 2,
         projectImg: RPS,
         title: "Rock Paper Scissors",
         description: "A Rock Paper Scissors game with AI.",
-        link: 'View Project'
+        link: 'View Project',
+        linkUrl: 'https://rock-paper-scissors-no3u.vercel.app/'
     },
     {
         id: 3,
         projectImg: xo,
         title: "Tic Tac Toe",
         description: "A fun Tic Tac Toe game with AI and eachother",
-        link: 'View Project'
+        link: 'View Project',
+        linkUrl: 'https://tic-tac-toe-ivory-eight-81.vercel.app/'
     }
 ];
