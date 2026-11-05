@@ -1,0 +1,97 @@
+#skills {
+    padding: 80px 10%;
+    background-color: #0b0b0b;
+    color: white;
+    text-align: center;
+}
+
+#skill h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.skill-text {
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 0.5px 0 currentColor;
+}
+.skills-description {
+    color: #bdbdbd;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 40px;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/*for tablet*/
+@media (max-width: 1024px) {
+    #skills {
+        padding: 70px 6%;
+    }
+
+    #skill h1 {
+        font-size: 42px;
+    }
+
+    .skill-text {
+        font-size: 42px;
+    }
+
+    #skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #skill-card {
+        padding: 25px 15px;
+    }
+}
+
+/*fpr mobile*/
+@media (max-width: 768px) {
+    #skills {
+        padding: 60px 25px;
+    }
+
+    #skill h1 {
+        font-size: 36px;
+    }
+
+    .skill-text {
+        font-size: 36px;
+    }
+
+    .skills-description {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    #skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    #skill-card {
+        padding: 20px 10px;
+        gap: 12px;
+    }
+
+    .skill-icon {
+        font-size: 32px;
+    }
+
+    #skill-card h3 {
+        font-size: 16px;
+    }
+}
