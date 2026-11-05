@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    padding: 12px 40px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-style: italic;
+    color: gold;
+    border: 2px solid gold;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 2px;
+}
+#logo-name {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: 0.5px 0 currentColor;
+    color: white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+nav > a {
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover, 
+nav a:focus {
+    color: gold;
+}
+#talk {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid gold;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+#talk > i {
+    color: gold;
+    font-size: 20px;
+}
+#talk > p{
+    color: white;
+}
+#talk:hover {
+    background-color: transparent;
+    color: gold;
+    border: 2px solid gold;
+    transform: translateY(-4px);
+}
+
+/*for tablet*/
+@media(max-width: 1024px) {
+    #nav-section {
+        padding: 15px 25px;
+    }
+    #logo-name {
+        font-size: 30px;
+    }
+    nav {
+        gap: 25px;
+    }
+    nav> a {
+        font-size: 16px;
+    }
+    #talk {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/*for mobile*/
+@media (max-width: 768px) {
+    #nav-section {
+        padding: 12px 15px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .logo-text {
+        gap: 8px;
+    }
+
+    #logo-name {
+        font-size: 25px;
+    }
+
+    #logo {
+        font-size: 16px;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav > a {
+        font-size: 14px;
+    }
+
+    #talk {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+
+    #talk > i {
+        font-size: 16px;
+    }
+}
